@@ -1,0 +1,179 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - Scientific Calculator</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f3ee;
+            color: #222;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: #ffb700;
+            padding: 12px 0;
+        }
+        
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .brand {
+            display: inline-block;
+            background: palevioletred;
+            color: #fff;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+        
+        .about-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .about-card {
+            background: #fff;
+            border: 1px solid #e0d9cf;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+            margin-bottom: 20px;
+        }
+        
+        .about-card h2 {
+            color: palevioletred;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ffeb99;
+            padding-bottom: 10px;
+        }
+        
+        .about-card p {
+            margin-bottom: 15px;
+        }
+        
+        .tech-list {
+            margin-top: 15px;
+        }
+        
+        .tech-list span {
+            display: inline-block;
+            background: #ffeb99;
+            padding: 6px 12px;
+            border-radius: 15px;
+            margin: 5px 5px 5px 0;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .btn-back {
+            background: palevioletred;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        
+        .btn-back:hover {
+            background: #c9708a;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        footer {
+            background: #403434;
+            color: #fff;
+            padding: 18px 0;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="brand">Scientific Calculator</div>
+        </div>
+    </header>
+
+    <main>
+        <div class="about-container">
+            <div class="about-card">
+                <h2>About Our Calculator</h2>
+                <p>
+                    This is a simple scientific calculator built with HTML and CSS. It helps you perform basic math operations, trigonometry functions, and more. The calculator is easy to use and works on all devices.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h2>How We Made It</h2>
+                <p>
+                    We built this calculator using basic web technologies:
+                </p>
+                <div class="tech-list">
+                   <strong>HTML</strong> 
+                   <strong>CSS</strong> 
+                   <strong>Bootstrap</strong> 
+                  <strong>Responsive Design</strong>
+                </div>
+                
+                <p style="margin-top: 20px;">
+                    <strong>Step 1: HTML Structure</strong><br>
+                    We started by creating the HTML structure with semantic elements. The page includes a header with navigation, a carousel section showcasing famous mathematicians, a categories section with accordion-style collapsible items, and the main calculator interface. Each section was carefully organized to ensure proper document structure.
+                </p>
+                
+                <p>
+                    <strong>Step 2: Styling with CSS</strong><br>
+                    We used custom CSS to style the entire calculator. The color scheme uses warm colors like #ffb700 (gold) for the header and palevioletred for accents. We created a clean, modern look with rounded corners, shadows, and smooth transitions. The calculator buttons were styled with different colors to distinguish between number buttons, operation buttons, and function buttons.
+                </p>
+                
+                <p>
+                    <strong>Step 3: Bootstrap Integration</strong><br>
+                    We integrated Bootstrap 5.3 to add responsive components like the carousel for displaying scientist images, accordion for the categories section, and modal for the login form. Bootstrap helped us create a professional-looking interface quickly while ensuring cross-browser compatibility.
+                </p>
+                
+                <p>
+                    <strong>Step 4: Layout Design</strong><br>
+                    One of the key features is the side-by-side layout of categories and calculator. We used CSS Flexbox to create this layout. The categories section takes up flexible space (flex: 1) while the calculator maintains its fixed width. This makes efficient use of screen space on larger devices.
+                </p>
+                
+                <p>
+                    <strong>Step 5: Responsive Design</strong><br>
+                    We made sure the calculator works perfectly on all devices. Using CSS media queries, we adjusted the layout for different screen sizes. On screens smaller than 992px, the categories and calculator stack vertically instead of side by side. Button sizes and font sizes also adjust for mobile devices to ensure usability.
+                </p>
+                
+                <p>
+                    <strong>Step 6: Calculator Grid</strong><br>
+                    The calculator buttons are arranged in a CSS Grid layout with 4 columns. This creates a clean, organized button layout. Each button is properly sized and spaced using grid properties, making the calculator easy to use and visually appealing.
+                </p>
+            </div>
+
+            <div class="text-center">
+                <a href="finalcalulator.html" class="btn-back">← Back to Calculator</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>HTML Project</p>
+    </footer>
+</body>
+</html>
+  
